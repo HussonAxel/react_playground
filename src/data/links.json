@@ -10,6 +10,12 @@
       "url": "/RandomGridPictureGallery",
       "description": "View a collection of random images in a grid gallery layout using the columns property to work",
       "urlVideo": "https://www.youtube.com/watch?v=x1qlKvJdHzI"
+    },
+    {
+      "title": "States - Tailwind CSS for devs in a hurry",
+      "url": "/TailwindStates",
+      "description": "Using utilities to style elements on hover, focus, and more.",
+      "urlVideo": "https://www.youtube.com/watch?v=POxcjoraP_Y&list=WL&index=3"
     }
   ]
 }

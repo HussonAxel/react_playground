@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { ChevronRight } from "lucide-react";
-
 import links from "../data/links.json";
+import { ChevronRight } from "lucide-react";
 
 export default function HomePageList() {
   
@@ -17,13 +16,13 @@ export default function HomePageList() {
           >
             <Link
               to={link.url}
-              className="grid grid-cols-1 md:grid-cols-[1fr,2fr] gap-4 p-4 bg-white rounded-lg "
+              className="grid grid-cols-2 md:grid-cols-[2fr,2fr] gap-4 p-4 bg-white rounded-lg "
             >
               <div className="flex items-center justify-between md:justify-start">
                 <span className="text-lg font-medium text-gray-700 group-hover:text-blue-500 transition-colors duration-200">
                   {link.title}
                 </span>
-                <ChevronRight className="w-5 h-5 text-gray-400 group-hover:text-blue-500 transition-colors duration-200 md:ml-2" />
+                  <ChevronRight className="w-5 h-5 text-gray-400 group-hover:text-blue-500 transition-colors duration-200 md:ml-2" />
               </div>
               <p className="text-sm text-gray-600 mt-1 md:mt-0">
                 {link.description}

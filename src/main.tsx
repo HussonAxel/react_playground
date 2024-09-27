@@ -1,23 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import HomePageList from './routes/HomePageList';
-import RandomGridPicturesGallery from "./routes/RandomGridPicturesGallery";
+import { RouterProvider } from 'react-router-dom';
 
+import router from './routes/router';
 import './index.css'
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePageList />,
-  },
-  {
-    path: "/RandomGridPictureGallery",
-    element: <RandomGridPicturesGallery />,
-    
-  },
-]);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
