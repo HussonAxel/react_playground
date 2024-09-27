@@ -4,6 +4,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePageList from "./HomePageList";
 import RandomGridPicturesGallery from "./RandomGridPicturesGallery";
 import TailwindStates from "./TailwindStates";
+import UnknownHTMLTags from "./UnknownHTMLTags";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     path: "/TailwindStates",
     element: <TailwindStates />,
   },
+  {
+    path: "/UnknownHTMLTags",
+    element: <UnknownHTMLTags />,
+  }
 ]);
 
 export default router;

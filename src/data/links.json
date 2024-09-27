@@ -16,6 +16,12 @@
       "url": "/TailwindStates",
       "description": "Using utilities to style elements on hover, focus, and more.",
       "urlVideo": "https://www.youtube.com/watch?v=POxcjoraP_Y&list=WL&index=3"
+    },
+    {
+      "title": "Unknown HTLM Tags",
+      "url": "/UnknownHtmlTags",
+      "description": "A collection of unknown HTML tags that are not widely used but great to use.",
+      "urlVideo": "https://www.youtube.com/watch?v=mzO5mL2kgEo&list=WL&index=44"
     }
   ]
 }
