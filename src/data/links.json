@@ -1,0 +1,15 @@
+{
+  "links": [
+    {
+      "title": "Home",
+      "url": "/",
+      "description": "Welcome to our main page. Get an overview of our services and latest updates."
+    },
+    {
+      "title": "RandomGridPictureGallery",
+      "url": "/RandomGridPictureGallery",
+      "description": "View a collection of random images in a grid gallery layout using the columns property to work",
+      "urlVideo": "https://www.youtube.com/watch?v=x1qlKvJdHzI"
+    }
+  ]
+}
